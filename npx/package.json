@@ -1,0 +1,19 @@
+{
+  "name": "trajan-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Trajan — connect AI agents to your developer workspace",
+  "keywords": ["mcp", "trajan", "ai-agents", "model-context-protocol"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaminocorp/trajan-mcp"
+  },
+  "homepage": "https://www.trajancloud.com",
+  "bin": {
+    "trajan-mcp": "bin/trajan-mcp.mjs"
+  },
+  "files": ["bin/", "README.md"],
+  "engines": {
+    "node": ">=18"
+  }
+}
